@@ -23,13 +23,14 @@ public class MaquinaExpendedoraSimple {
         estacionOrigen = "Leon";
         estacionDestino = "Astorga";
     }
-public MaquinaExpendedoraSimple (int precioDelBillete, String destino) {
+    
+     public MaquinaExpendedoraSimple (int precioDelBillete, String destino) {
         precioBillete = precioDelBillete;
         balanceClienteActual = 0;
         totalDineroAcumulado = 0;
         estacionOrigen = "Leon";
         estacionDestino = "destino";
-    }
+        }
 
     /**
      * Devuelve el precio del billete
@@ -37,7 +38,13 @@ public MaquinaExpendedoraSimple (int precioDelBillete, String destino) {
     public int getPrecioBillete() {
         return precioBillete;
     }
-
+    
+    public int getTotalDineroAcumulado(){
+        return totalDineroAcumulado;
+       
+    
+    }
+    
     /**
      * Devuelve la cantidad de dinero que el cliente actual lleva introducida
      */
