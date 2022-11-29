@@ -33,8 +33,8 @@ public class MaquinaExpendedoraSimple {
         estacionDestino = "destino";
     }
         
-     public void PrecioBillete(int setPrecioBillete) {
-        precioBillete = setPrecioBillete;
+     public void precioBillete(int cambiarPrecioBillete) {
+        precioBillete = cambiarPrecioBillete;
     
     }
     
