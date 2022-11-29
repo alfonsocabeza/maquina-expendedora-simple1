@@ -44,7 +44,7 @@ public class MaquinaExpendedoraSimple {
     }
     
     public void vaciarDepositoDinero() {
-        totalDineroAcumulado = precioBillete - precioBillete;
+        totalDineroAcumulado = 0;
     }
     
     /**
